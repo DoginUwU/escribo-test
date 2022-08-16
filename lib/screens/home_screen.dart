@@ -1,5 +1,7 @@
 import 'package:desafio_1/constants/app_constants.dart';
+import 'package:desafio_1/utils/globals_variables.dart';
 import 'package:desafio_1/utils/number_generator_util.dart';
+import 'package:desafio_1/widgets/navigation_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -34,6 +36,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
     setState(() => sum = numbers.reduce((a, b) => a + b));
     setState(() => sumString = numbers.join(" + "));
+
+    history.add(History(number, sum));
   }
 
   @override
@@ -41,6 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: gradientStartColor,
+        bottomNavigationBar: const NavigationWidget(),
         body: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(

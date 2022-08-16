@@ -1,3 +1,4 @@
+import 'package:desafio_1/screens/history_screen.dart';
 import 'package:desafio_1/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -16,6 +17,11 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const HomeScreen(),
+      initialRoute: '/home',
+      routes: {
+        '/home': (context) => const HomeScreen(),
+        '/history': (context) => const HistoryScreen(),
+      },
     );
   }
 }
