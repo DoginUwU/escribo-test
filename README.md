@@ -1,16 +1,38 @@
-# desafio_1
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/59850361/184916686-4f024bd2-9cd1-49a9-8b06-1d8b71c16654.png" />
+</p>
+<samp><h6 align="center">#flutter, #contador, #desafio</h6></samp>
+<samp><h1 align="center">Escribo Desafio</h1></samp>
 
-A new Flutter project.
+<h6 align="center"><samp>Desafio para seleção de Desenvolvedor de Software da Escribo</samp></h6>
 
-## Getting Started
+## Qual o objetivo
+Implemente uma função que receba um número inteiro positivo e retorne o
+somatório de todos os valores inteiros divisíveis por 3 ou 5 que sejam inferiores ao
+número passado
 
-This project is a starting point for a Flutter application.
+## Como usar
+- Baixe o APK na aba de Releases do projeto
+- Instale, abra e digite o número para o calculo começar
 
-A few resources to get you started if this is your first Flutter project:
+## Como rodar localmente
+**Etapa 1:**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Baixe ou clone o repositório com esse link
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+git@github.com:DoginUwU/escribo-test.git
+```
+
+**Etapa 2:**
+
+Vá para a raiz do projeto, e baixe todas as dependências necessárias: 
+
+```
+flutter pub get 
+```
+
+**Etapa 3:**
+
+Rode o projeto localmente e seja feliz :)
+
